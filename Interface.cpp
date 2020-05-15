@@ -12,7 +12,7 @@ using namespace std;
 int main() {
     std::srand(time(NULL));
     std::system("clear");
-    cout << "SENGEN\nCreated by CWY Interactive 2020\nInterface Version : 2.3\n\n";
+    cout << "SENGEN\nCreated by CWY1013 2020\nInterface Version : 2.3\n\n";
     int SetUp;
     cout << "SetUp [1/0] : ";
     cin >> SetUp;
@@ -20,7 +20,7 @@ int main() {
     string wpk;
     cout << "Wordpack : ";
     cin >> wpk;
-    ofstream wout ("Documents/CWY\ Interactive/SenGen/Preference.txt", std::ios_base::trunc);
+    ofstream wout ("Documents/SenGen/Preference.txt", std::ios_base::trunc);
     if (wout.is_open())
   {
     wout << wpk << " wpk" << "\n";
@@ -35,7 +35,7 @@ int main() {
       long looper = 1;
       while (looper <= attempts) {
         cout << "Attempt " << looper << "\n";
-        std::system("\"./Documents/CWY Interactive/SenGen/generator\"");
+        std::system("\"./Documents/SenGen/generator\"");
         std::this_thread::sleep_for(std::chrono::milliseconds(rand() % 1000 + 1000));
         std::system("clear");
         ++looper;
