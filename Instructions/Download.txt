@@ -1,4 +1,4 @@
-After download, put the whole folder (CWY Interactive/SenGen) into the documents folder.
+After download, put the whole folder (SenGen) into the documents folder.
 The full path should look like this :
 ~/documents/SenGen
 
