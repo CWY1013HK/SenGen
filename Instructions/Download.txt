@@ -1,6 +1,6 @@
 After download, put the whole folder (CWY Interactive/SenGen) into the documents folder.
 The full path should look like this :
-~/documents/CWY Interactive/SenGen
+~/documents/SenGen
 
 Copy a version of interface or from the interface version, and put it somewhere you like.
 
