@@ -637,53 +637,10 @@ int main() {
     qstart.push_back("how");
     qstart.push_back("did");
     uwb["qstart"] = qstart;
-
-    /*ifstream rwb ("desktop/tools/visual\ studio\ codes/C++/Sentence\ Generator/wordbase.txt");
-    if (rwb.is_open())
-  {
-        string input;
-        vector<string> splited;
-        string word = "gy";
-        string wtype = "pnoun";
-        while (rwb >> input) {
-          cout << input << "\n";
-          /*wtype = splited.back();
-          splited.pop_back();
-          for (auto const part : splited) {
-            word = word + " ";
-            word = word + part;
-          }
-          word.erase(0, 1);
-          //std::cout << wtype << " " << word << "\n";
-        for (auto const vtype : uwb) {
-          if (vtype.first == wtype) {
-            vector<string> temp = vtype.second;
-            temp.push_back(word);
-            uwb[wtype] = temp; 
-          }
-        }
-        if (wtype == "ppverb") {
-            vector<string> temp = uwb.at("piverb");
-            temp.push_back(word);
-            uwb["piverb"] = temp;
-          }
-          if (wtype == "hsverb") {
-            vector<string> temp = uwb.at("hiverb");
-            temp.push_back(word);
-            uwb["piverb"] = temp;
-          }
-        }
-    }
-    rwb.close();*/
-
-    /*cout << "Location of wordbase.txt? (End with '/') ";
-    string loc;
-    cin >> loc;
-    string dir = loc + "wordbase.txt";*/
     
     string wpk;
 
-    ifstream rpf ("Documents/CWY\ Interactive/SenGen/Preference.txt");
+    ifstream rpf ("Documents/SenGen/Preference.txt");
     if (rpf.is_open())
   {
         string pref;
@@ -697,11 +654,11 @@ int main() {
     }
     rpf.close();
     
-    string loc = "Documents/CWY\ Interactive/SenGen/Wordpacks/";
+    string loc = "Documents/SenGen/Wordpacks/";
     loc = loc + wpk;
 
     ifstream tst (loc + "/wordbase.txt");
-    if (tst.is_open()) tst.close(); else  {cout << "~FOUL WORKPACK LOCATION; TO DEFAULT~"; loc = "Documents/CWY\ Interactive/SenGen/Wordpacks/Default";}
+    if (tst.is_open()) tst.close(); else  {cout << "~FOUL WORKPACK LOCATION; TO DEFAULT~"; loc = "Documents/SenGen/Wordpacks/Default";}
 
     ifstream rwb (loc + "/wordbase.txt");
     if (rwb.is_open())
@@ -814,7 +771,7 @@ int main() {
     std::cout << sentence << "\n";
     string t2s = "say " + sentence;
     std::system(t2s.c_str());
-    ofstream wout ("Documents/CWY\ Interactive/SenGen/output.txt", std::ios_base::app);
+    ofstream wout ("Documents/SenGen/output.txt", std::ios_base::app);
     if (wout.is_open())
   {
     wout << sentence << "\n\n";
