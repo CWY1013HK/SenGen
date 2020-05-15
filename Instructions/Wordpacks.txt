@@ -23,4 +23,4 @@ adv - adverb
 
 Note: some of the wordings in the source code are not grammatically correct. Read with caution.
 
--CWY1013, 2020
+-CWY1013HK, 2020
