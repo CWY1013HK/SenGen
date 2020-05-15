@@ -4,6 +4,6 @@ The full path should look like this :
 
 Copy a version of interface or from the interface version, and put it somewhere you like.
 
-Click on the interface to test it. If it does not function properly, check if you are running MacOS X, have you deleted files, or placed it in the wrong directory. You can always edit the source code and compile it, but do not redistributed the edited source code without my permission.
+Click on the interface to test it. If it does not function properly, check if you are running MacOS X, have you deleted files, or placed it in the wrong directory.
 
 -CWY1013, 2020
