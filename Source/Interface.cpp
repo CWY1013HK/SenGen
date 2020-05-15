@@ -12,7 +12,7 @@ using namespace std;
 int main() {
     std::srand(time(NULL));
     std::system("clear");
-    cout << "SENGEN\nCreated by CWY1013 2020\nInterface Version : 2.3\n\n";
+    cout << "SENGEN\nCreated by CWY1013HK 2020\nInterface Version : 2.3\n\n";
     int SetUp;
     cout << "SetUp [1/0] : ";
     cin >> SetUp;
