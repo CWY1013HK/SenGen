@@ -8,4 +8,4 @@ Copy a version of interface, maybe add a logo, change the name, and put it somew
 
 Click on the interface to test it. If it does not function properly, check if you are running MacOS X, have you deleted files, or placed it in the wrong directory.
 
--CWY1013, 2020
+-CWY1013HK, 2020
