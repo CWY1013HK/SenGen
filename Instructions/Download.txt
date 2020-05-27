@@ -4,7 +4,7 @@ The full path should look like this :
 
 Change the folder name (after unzipping) to 'SenGen'.
 
-Open terminal, cd to the folder location, and run 'chmod +x interface' and 'chmod +x generator'.
+Open terminal, cd to the folder location, and run 'chmod +x Interface' and 'chmod +x generator'.
 
 Copy a version of interface, maybe add a logo, change the name, and put it somewhere you like.
 
